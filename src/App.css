@@ -1,0 +1,37 @@
+body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  padding: 1rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: gray;
+}
+
+.doubleApp {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 90vh;
+}
+
+.loading {
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  transform: translate(-50%, -50%);
+  background-color: gray;
+}
